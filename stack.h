@@ -6,7 +6,8 @@
 /* a positive-integer value stack, with no size limit */
 typedef struct stack
 {
-	// Your code here
+	link* top; // pointer to the top link in the stack
+
 } stack;
 
 void push(stack* s, unsigned int element);

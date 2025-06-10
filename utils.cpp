@@ -3,7 +3,6 @@
 
 void reverse(int *nums, unsigned int size)
 {
-	// Your code here
 	for (unsigned int i = 0; i < size / 2; ++i)
     {
         int temp = nums[i];

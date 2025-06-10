@@ -4,12 +4,14 @@
 /* a link that contains a positive integer value */
 typedef struct link
 {
-	// Your code here
+	unsigned int value; // the value of the link
+	struct link* next; // pointer to the next link in the list
 } link;
 
 typedef struct linkedList
 {
-	// Your code here
+	link* head; // pointer to the first link in the list
+
 } linkedList;
 
 void initList(linkedList* list); // initialize list
